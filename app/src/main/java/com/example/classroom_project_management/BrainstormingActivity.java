@@ -1,11 +1,12 @@
 package com.example.classroom_project_management;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class BrainstormingActivity extends Activity{
+public class BrainstormingActivity extends Activity {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -15,7 +16,7 @@ public class BrainstormingActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brainstorming);
-        recyclerView = (RecyclerView) recyclerView.findViewById(brainstorming_recycler_view);
+        /*recyclerView = (RecyclerView) recyclerView.findViewById(brainstorming_recycler_view);
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -27,6 +28,6 @@ public class BrainstormingActivity extends Activity{
 
         // specify an adapter (see also next example)
         mAdapter = new MyAdapter(myDataset);
-        recyclerView.setAdapter(mAdapter);
+        recyclerView.setAdapter(mAdapter);*/
     }
 }
